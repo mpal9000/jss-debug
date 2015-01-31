@@ -17,7 +17,7 @@ exports.styles = {
 ```
 
 ```html
-    <button class="jss-0 jss:button">Button</button>
+<button class="jss-0 jss:button">Button</button>
 ```
 
 ## Register plugin
