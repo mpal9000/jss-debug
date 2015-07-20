@@ -1,7 +1,7 @@
 {
   "name": "jss-debug",
   "description": "Adds rule name to the class name for debugging purposes.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
@@ -24,6 +24,6 @@
     }
   ],
   "dependencies": {
-    "jsstyles": "^1.0.0"
+    "jsstyles": "^2.1.0"
   }
 }
