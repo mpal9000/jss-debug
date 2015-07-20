@@ -11,7 +11,7 @@ QUnit.module('Debug plugin', {
 
 test('debug properties', function () {
     jss.Rule.uid = 0
-    var ss = new jss.StyleSheet({
+    var ss = jss.createStyleSheet({
         a: {
             'font-size': '20px'
         }
