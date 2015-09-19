@@ -38,11 +38,11 @@ console.log(styleSheet.toString())
 console.log(styleSheet.classes)
 ```
 ```javascript
-{ button: "jss-0-0" }
+{ button: "jss-0-0 jss:button" }
 ```
 
 ```html
-<button class="jss-0 jss:button">Button</button>
+<button class="jss-0-0 jss:button">Button</button>
 ```
 
 
@@ -52,7 +52,7 @@ console.log(styleSheet.classes)
 
 ```bash
 npm i
-open test/local.html
+open test/index.html
 ```
 
 ### From github

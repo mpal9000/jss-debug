@@ -5,11 +5,9 @@
  * @api public
  */
 export default function jssDebug(rule) {
-  console.log('rule:', rule)
   if (!rule.options.named) return
 
-  const name = rule.options.name
-  console.log('name:', name)
+  const name = rule.name
 
   rule.className += ` jss:${name}`
 

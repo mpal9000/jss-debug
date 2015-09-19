@@ -17,5 +17,5 @@ test('debug properties', function () {
     }
   })
 
-  equal(ss.getRule('a').className, 'jss-0 jss:a')
+  equal(ss.getRule('a').className, 'jss-0-0 jss:a')
 })
